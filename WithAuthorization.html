@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style2.css" type="text/css">
+<title>With Authorization</title>
+</head>
+<body>
+<h1>With Authorization</h1>
+<h2>Enter your username and password to download file</h2>
+<form id="authorizationForm">
+    <div class="Authorization">
+        <input type="username" id="username" name="username" placeholder="Enter username">
+    </div>
+    <div class="Authorization">
+        <input type="password" id="password" name="password" placeholder="Enter password">
+    </div>
+    <button type="submit">Submit</button>
+</form>
+<div id="downloadLink" style="display: none;">
+    <a id="downloadButton" href="https://drive.google.com/uc?export=download&id=10afcsipnwL5i8rdfjEp2CctypF0zMR6_">Download</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

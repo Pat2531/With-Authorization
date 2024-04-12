@@ -1,0 +1,53 @@
+body {
+    background-image: url("pylon2022.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+h2 {
+    margin-top: 25%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.Authorization input[type="password"]{
+    margin-left: 835px;
+    resize: none;
+
+}
+
+.Authorization input[type="username"]{
+    margin-left: 835px;
+    margin-bottom: 5px;
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 48%;
+    margin-bottom: 15px;
+    padding: 6px;
+    border-radius: 10px;
+    color: black
+}
+
+a {
+    background-color: lightgray;
+    margin-top: 30px;
+    margin-left: 885px;
+    padding: 6px;
+    border-radius: 10px;
+    color: black; 
+    resize: none;
+    text-decoration: none;
+    color: black;
+}
